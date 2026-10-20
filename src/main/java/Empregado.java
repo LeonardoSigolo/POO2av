@@ -38,4 +38,6 @@ public abstract class Empregado {
     public String toString(){
         return getCodigo() + " " + getNome() + " " + getSalarioBase();
     }
+
+    abstract void calculoSalario();
 }
