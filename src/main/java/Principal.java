@@ -6,10 +6,7 @@ public class Principal {
         System.out.println(engenheiro.toString());
         System.out.println(gerente.toString());
 
-        engenheiro.calculoSalario();
-        gerente.calculoSalario();
-
-        System.out.println(engenheiro.toString());
-        System.out.println(gerente.toString());
+        System.out.println(engenheiro.calculoSalario());
+        System.out.println(gerente.calculoSalario());
     }
 }
