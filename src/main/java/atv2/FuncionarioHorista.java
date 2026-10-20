@@ -23,7 +23,7 @@ public class FuncionarioHorista extends Funcionario{
     }
 
     public void setHorasTrabalhadas(double horasTrabalhadas) {
-        this.horasTrabalhadas = horasTrabalhadas > 0 && horasTrabalhadas < 168 ? horasTrabalhadas : 0;
+        this.horasTrabalhadas = horasTrabalhadas > 0 && horasTrabalhadas <= 168 ? horasTrabalhadas : 0;
     }
 
     @Override
