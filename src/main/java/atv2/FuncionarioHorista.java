@@ -28,7 +28,7 @@ public class FuncionarioHorista extends Funcionario{
 
     @Override
     public double calculoSalario() {
-        return getHorasTrabalhadas() >= 40 ? getSalarioHora() * getHorasTrabalhadas() : 40 * getSalarioHora() + (getHorasTrabalhadas() - 40) *getSalarioHora() * 1.5;
+        return getHorasTrabalhadas() <= 40 ? getSalarioHora() * getHorasTrabalhadas() : 40 * getSalarioHora() + (getHorasTrabalhadas() - 40) *getSalarioHora() * 1.5;
     }
 
     @Override

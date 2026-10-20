@@ -39,5 +39,5 @@ public abstract class Empregado {
         return getCodigo() + " " + getNome() + " " + getSalarioBase();
     }
 
-    abstract void calculoSalario();
+    abstract double calculoSalario();
 }

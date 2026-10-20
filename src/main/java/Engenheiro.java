@@ -24,8 +24,8 @@ public class Engenheiro extends Empregado{
         this.CREA = CREA;
     }
 
-    public void calculoSalario(){
-        this.setSalarioBase(getSalarioBase() * 1.5);
+    public double calculoSalario(){
+        return getSalarioBase() * 1.5;
     }
 
     @Override

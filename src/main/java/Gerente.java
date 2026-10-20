@@ -14,8 +14,8 @@ public class Gerente extends Empregado{
         this.bonus = bonus;
     }
 
-    public void calculoSalario(){
-        setSalarioBase(getSalarioBase() + getBonus());
+    public double calculoSalario(){
+        return getSalarioBase() + getBonus();
     }
 
     @Override

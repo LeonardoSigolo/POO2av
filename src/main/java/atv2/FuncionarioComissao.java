@@ -28,7 +28,7 @@ public class FuncionarioComissao extends Funcionario{
 
     @Override
     public double calculoSalario() {
-        return getVendaBruta() * (getComissao() / 100);
+        return getVendaBruta() * (getComissao());
     }
 
     @Override
