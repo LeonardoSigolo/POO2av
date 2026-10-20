@@ -30,6 +30,6 @@ public class Engenheiro extends Empregado{
 
     @Override
     public String toString(){
-        return getCodigo() + " " + getNome() + " " + getSalarioBase() + " " + getCREA() + " " + getDepartamento();
+        return super.toString() + " " + getCREA() + " " + getDepartamento();
     }
 }

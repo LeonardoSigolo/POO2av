@@ -20,6 +20,6 @@ public class Gerente extends Empregado{
 
     @Override
     public String toString(){
-        return getCodigo() + " " + getNome() + " " + getSalarioBase() + " " + getBonus();
+        return super.toString() + " " + getBonus();
     }
 }
